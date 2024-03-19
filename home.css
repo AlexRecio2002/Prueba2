@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 233, 233);
+}
+
+.header{
+    background-color: rgb(213, 187, 255);
+    padding: 5px 0px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.logo{
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(78, 34, 136);
+}
+
+.enlaces{
+    list-style-type: none;
+    display: flex;
+
+}
+
+.enlaces li{
+    margin-right: 40px;
+    margin-top: 5px;
+}
+
+.enlaces li a{
+    text-decoration: none;
+    color: rgb(122, 17, 17);
+    transform: color 0.3s ease;
+}
+
+.enlaces li a:hover{
+    color: rgb(219, 122, 83);
+
+}
